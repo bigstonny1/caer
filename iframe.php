@@ -77,7 +77,6 @@ body{padding: 0; margin: 0;background: #000}
 </style>
 <!--iklan pop up paste disini-->
 <title>Gerador de Player</title>
-<!-- PopAds.net Popunder Code for bot-embed.herokuapp.com -->
 <script type="text/javascript" data-cfasync="false">
 /*<![CDATA[/* */
   var _pop = _pop || [];
@@ -101,4 +100,3 @@ body{padding: 0; margin: 0;background: #000}
   })();
 /*]]>/* */
 </script>
-<!-- PopAds.net Popunder Code End -->
