@@ -29,25 +29,6 @@
 <input class="form-control input-lg" type="text" name="url" placeholder="Link Video Here" value="" style="width:100%" />
 </div>
 </div>
-<div class="form-group">
-<div class="input-group input-group-lg">
-<span class="input-group-addon"><i class="fa fa-fw fa-navicon"></i></span>
-<input class="form-control input-lg" type="text" name="subtitle" placeholder="Link Subtittle Here" value="" style="width:100%" />
-</div>
-</div>
-<div class="form-group">
-<div class="input-group input-group-lg">
-<span class="input-group-addon"><i class="fa fa-fw fa-image"></i></span>
-<input class="form-control input-lg" type="text" name="thumbnail" placeholder="Link Poster Here" value="" style="width:100%" />
-</div>
-</div>
-<div class="form-group">
-<div class="input-group input-group-lg">
-<span class="input-group-addon"><i class="fa fa-fw fa-file-image-o"></i></span>
-<input class="form-control input-lg" type="text" name="logo" placeholder="Link Logo Here" value="" style="width:100%" />
-</div>
-</div>
-
 <!--PUBLICIDADE NO BOTÃO GERAR, 3 BANDEIRAS 300x250-->
 
 <table border='0' cellpadding='0' cellspacing='30' color='#ffffff' width='300' style='margin: 5px 5px 0 0'></table>
@@ -85,17 +66,6 @@
 			if(isset($linkEncode)){
 				?>
 				
-				<div class="col-md-12">
-					<div>
-						<span class="label label-primary">
-							Incorporar código do jogador
-						</span>
-						<br/>
-						<textarea id="embed" onclick="this.select();" class="form-control" rows="4"><iframe style="border:0px #FFFFFF none;" scrolling="no" frameborder="0" marginheight="0px" marginwidth="0px" height="400" width="100%" src="<?=$linkEncode?>" allowfullscreen></iframe>
-</textarea>
-<button class="btn btn-primary" data-clipboard-target="#embed"><span class="fa fa-files-o"></span> Copiar texto</button>
-	</div>
-	    </div>
 				<div class="col-md-12">
 					<div>
 						<span class="label label-primary">
