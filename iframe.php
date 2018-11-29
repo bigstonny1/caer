@@ -69,6 +69,25 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 			}
 			?>
     });
+	 playerInstance.addButton("http://i.imgur.com/jxQLCSy.png", "A", function() {
+        window.open(playerInstance.getPlaylistItem()['A'] + '');
+    }, "A");
+    
+      playerInstance.addButton("http://i.imgur.com/4BmMcp6.png", "R", function() {
+        window.open(playerInstance.getPlaylistItem()['R'] + '');
+    }, "R");
+    
+      playerInstance.addButton("http://i.imgur.com/MX36IZz.png", "D", function() {
+        window.open(playerInstance.getPlaylistItem()['D'] + '');
+    }, "D");
+    
+      playerInstance.addButton("http://i.imgur.com/pXzXj9w.png", "Y", function() {
+        window.open(playerInstance.getPlaylistItem()['Y'] + '');
+    }, "Y");
+    
+      playerInstance.addButton("http://i.imgur.com/0qEn2J0.png", "H", function() {
+        window.open(playerInstance.getPlaylistItem()['H'] + '');
+    }, "H");
 </script>
 <style type="text/css">
 body{padding: 0; margin: 0;background: #000}
