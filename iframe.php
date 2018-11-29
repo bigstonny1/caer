@@ -34,7 +34,7 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 	var playerInstance = jwplayer("player");
 		playerInstance.setup({
 			sources: <?=$file?>,
-			image: "<?=$thumbnail?>",
+			image: "http://i.imgur.com/Xq0P6xp.jpg",
 			autostart: false,
 			controls: true,
 			width: "100%",
