@@ -28,9 +28,9 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 ?>
 
 <div id="player"></div>
-<script type="text/javascript" src="//content.jwplatform.com/libraries/hDZaZjnc.js"></script>
+<script type="text/javascript" src="//assets.nlm.nih.gov/jwplayer/8/jwplayer.js"></script>
 <script type="text/javascript">
-	jwplayer.key = "gGpS+jTZmHT4xHlTSOhEsuk/Gt9I4gbAdqP1LQ54u8TX2EcxYlzoRA==";
+	jwplayer.key = "eNFaXCjyURVoCCGiHp7HTQ3hDhE/AfL0g8VE1fRbL84=";
 	var playerInstance = jwplayer("player");
 		playerInstance.setup({
 			sources: <?=$file?>,
