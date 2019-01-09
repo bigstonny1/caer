@@ -28,7 +28,7 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 ?>
 
 <div id="player"></div>
-<script type="text/javascript" src="//content.jwplatform.com/libraries/GLBzy13g.js"></script>
+<script type="text/javascript" src="//content.jwplatform.com/libraries/hDZaZjnc.js"></script>
 <script type="text/javascript">
 	jwplayer.key = "gGpS+jTZmHT4xHlTSOhEsuk/Gt9I4gbAdqP1LQ54u8TX2EcxYlzoRA==";
 	var playerInstance = jwplayer("player");
@@ -40,8 +40,8 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 			width: "100%",
 			height: "100%",
 			aspectratio: "16:9",
-			abouttext: "Hydra Filmes HD",
-			aboutlink: "www.hydrafilmeshd.com/",
+			abouttext: "CODENULL",
+			aboutlink: "www.storecodenull.xyz",
 			
 
 			<?php
@@ -69,21 +69,6 @@ $file = '[{"type": "video/mp4", "label": "HD", "file": "'.$linkdown.'"}]';
 			}
 			?>
     });
-	 playerInstance.addButton("http://i.imgur.com/jxQLCSy.png", "A", function() {
-        window.open(playerInstance.getPlaylistItem()['A'] + '');
-    }, "A");
-      playerInstance.addButton("http://i.imgur.com/4BmMcp6.png", "R", function() {
-        window.open(playerInstance.getPlaylistItem()['R'] + '');
-    }, "R");
-      playerInstance.addButton("http://i.imgur.com/MX36IZz.png", "D", function() {
-        window.open(playerInstance.getPlaylistItem()['D'] + '');
-    }, "D");
-      playerInstance.addButton("http://i.imgur.com/pXzXj9w.png", "Y", function() {
-        window.open(playerInstance.getPlaylistItem()['Y'] + '');
-    }, "Y");
-      playerInstance.addButton("http://i.imgur.com/0qEn2J0.png", "H", function() {
-        window.open(playerInstance.getPlaylistItem()['H'] + '');
-    }, "H");
 </script>
 <style type="text/css">
 body{padding: 0; margin: 0;background: #000}
@@ -91,4 +76,3 @@ body{padding: 0; margin: 0;background: #000}
 #player{text-align: center;color:#fff;}
 </style>
 <!--iklan pop up paste disini-->
-<title>Gerador de Player</title>
